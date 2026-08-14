@@ -1,0 +1,27 @@
+A-
+
+
+programa
+{
+	funcao inicio()
+	{
+		inteiro a = 0
+		inteiro b = 1
+		inteiro proximo
+
+		escreva(a, " ")
+		escreva(b, " ")
+
+		proximo = a + b
+
+		enquanto (proximo <= 500)
+		{
+			escreva(proximo, " ")
+
+			a = b
+			b = proximo
+
+			proximo = a + b
+		}
+	}
+}
